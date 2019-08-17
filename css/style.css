@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("../images/bg-01.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39rem;
+}
+.form{
+    background-image: linear-gradient(rgb(89, 133, 255),rgba(173, 49, 255, 0.815));
+    border-radius: 10px;
+    color: #fff;
+}
+.inputbox{
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.342);
+    background-color: transparent;
+    height: 40px;
+    width: 400px;
+    transition: border-bottom 1s ease;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.inputbox:focus{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.input{
+    margin: 40px;
+}
+.title{
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 110px;
+    text-align: center;
+    margin: 15px auto;
+    color: black;
+
+}
+.btn{
+    text-align: center;
+    margin: 30px 0 60px 0;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    color: #fff;
+}
+@media screen and (max-width: 515px){
+    .form{
+        width: 100%;
+    }
+    .inputbox{
+        width: 90%;
+    }
+
+
+}
