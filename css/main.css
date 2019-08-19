@@ -76,6 +76,7 @@
 .bg{
   background-image: url("../images/bg-01.jpg");
   background-repeat: no-repeat;
-
   background-attachment: fixed;
+  width: 100%;
+  margin: 0;
 }
